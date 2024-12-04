@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6EF83A0F2D00D36B0011FC75 /* CoreLayer in Frameworks */ = {isa = PBXBuildFile; productRef = 6EF83A0E2D00D36B0011FC75 /* CoreLayer */; };
 		6EF83A1C2D00D5700011FC75 /* CountriesModule in Frameworks */ = {isa = PBXBuildFile; productRef = 6EF83A1B2D00D5700011FC75 /* CountriesModule */; };
+		6EF83A892D00E2080011FC75 /* NetworkLayer in Frameworks */ = {isa = PBXBuildFile; productRef = 6EF83A882D00E2080011FC75 /* NetworkLayer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 			membershipExceptions = (
 				Application/InfoPlist/Info.plist,
 				Core/CoreLayer,
+				Core/NetworkLayer,
 				Modules/CountriesModule,
 			);
 			target = 6E429FB22CF4BCD200F30661 /* CountriesApp */;
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EF83A892D00E2080011FC75 /* NetworkLayer in Frameworks */,
 				6EF83A1C2D00D5700011FC75 /* CountriesModule in Frameworks */,
 				6EF83A0F2D00D36B0011FC75 /* CoreLayer in Frameworks */,
 			);
@@ -97,6 +100,7 @@
 			packageProductDependencies = (
 				6EF83A0E2D00D36B0011FC75 /* CoreLayer */,
 				6EF83A1B2D00D5700011FC75 /* CountriesModule */,
+				6EF83A882D00E2080011FC75 /* NetworkLayer */,
 			);
 			productName = CountriesApp;
 			productReference = 6E429FB32CF4BCD200F30661 /* CountriesApp.app */;
@@ -381,6 +385,10 @@
 		6EF83A1B2D00D5700011FC75 /* CountriesModule */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = CountriesModule;
+		};
+		6EF83A882D00E2080011FC75 /* NetworkLayer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NetworkLayer;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
