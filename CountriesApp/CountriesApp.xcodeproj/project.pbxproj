@@ -22,7 +22,6 @@
 			membershipExceptions = (
 				Application/InfoPlist/Info.plist,
 				Core/CoreLayer,
-				Core/NetworkLayer,
 				Modules/CountriesModule,
 			);
 			target = 6E429FB22CF4BCD200F30661 /* CountriesApp */;
