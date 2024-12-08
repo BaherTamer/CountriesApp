@@ -36,7 +36,7 @@ This project uses the [REST Countries](https://restcountries.com/) API 3.1.
 <br>
 
 ## 🗂️ Modules
-* **Network Layer:** A module for handling network request logic . Built using Swift Concurrency and URLSession with Endpoint protocol mechanism.
+* **Network Layer:** A module for handling network request logic. Built using Swift Concurrency and URLSession with Endpoint protocol mechanism.
 * **Core Layer:** A module for encapsulating all the shared core files and extension.
 * **Countries Module:** A module for countries features listing and details.
 
