@@ -42,6 +42,6 @@ This project uses the [REST Countries](https://restcountries.com/) API 3.1.
 
 <br>
 
-## ✅ Units Tests
+## ✅ Unit Tests
 * Network Service in Network Module
 * View Models in Countries Module
